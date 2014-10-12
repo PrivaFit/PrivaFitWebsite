@@ -1,64 +1,50 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta name="keywords" content="潮流,街头,流行,时尚,球鞋,牛仔裤,时尚杂志,街头文化,潮流品牌,晒物">
         <meta name="description" content="nice以“今天你穿什么”为核心功能，注重分享与纪录你的真实穿着体验">
-        <link rel="shortcut icon" href="http://oneniceapp.com/img/favicon.ico" type="image/x-icon">
+        <script src="index_files/jquery-1.11.1.min.js"> </script>
+        <script src='index_files/index.js'></script>    
         <link rel="stylesheet" href="index_files/index.min.css">
+
         <title>PrivaFit</title>
-        <script
-            var ua = navigator.userAgent.toLowerCase();
-            if(ua.indexOf("android") > -1
-            || ua.indexOf("iphone") > -1
-                || ua.indexOf("ipod") > -1
-                || ua.indexOf("ipad") > -1) {
-                if(location.href.indexOf("act=invite") > -1) {
-                    window.location.href = "/wap/download" + location.search;
-                } else {
-                    window.location.href = "/wap" + location.search;
-                }
-            }
-        </script>
     </head>
     <body>
-        <div class="header-wrapper">
+        <div data-role='page' class="header-wrapper" id="home">
             <div class="header">
-                <a href="./index_files/index.html" title="privafit" class="logo"><img src="./index_files/logo.png" width="164" height="62" alt="PrivaFit"></a>
+                <a href="" title="privafit" class="logo"><img src="./index_files/logo.png" width="164" height="62" alt="PrivaFit"></a>
                 <ul class="nav">
-                    <li><a href="./index_files/index.html">首页</a></li>
-                    <li><a href="http://www.privafit.com/about">关于PrivaFit</a></li>
-                    <li><a href="http://www.privafit.com/contact">联系PrivaFit</a></li>
-                    <li><a href="http://www.privafit.com/joinus">加入PrivaFit</a></li>
+                    <li><a href="" id='homeLink'>首页</a></li>
+                    <li><a href="" id='functionLink'>功能介绍</a></li>
+                    <li><a href="" id='aboutLink'>关于Priva</a></li>
+                    <li><a href="" id='contactLink'>联系我们</a></li>
                 </ul>
-                <div class="download">
-                    <a href="http://www.oneniceapp.com/download/app/ios" target="_blank"><img src="./index_files/ios.png" width="176" height="52" alt="ios下载"></a>
-                    <a href="http://img01.oneniceapp.com/app/nice_main_2.3.1.1.apk"><img src="./index_files/android.png" width="180" height="52" alt="android下载"></a>
-                </div>
             </div>
         </div>
-        <div class="main">
-        </div>
+        <div>
+            <div class="main" id="mainContent"> 
+                <p>在Privafit
+                每个人都越来越美丽，越来越自信，越来越健康
+                给自己一个机会，找到和你一起进步的伙伴！
+                最不一样的美女app，你的私人健身闺蜜
+                Trust us－
+                We know what you want
+                We build what you need
+                </p>
+            </div>
+        </div>    
         <div class="footer-wrapper">
-    <div class="footer">
-        <ul class="nav">
-            <li class="first"><a href="http://www.privafit.com/about">关于PrivaFit</a></li>
-            <li><a href="http://www.privafit.com/contact">联系PrivaFit</a></li>
-            <li><a href="http://www.privafit.com/joinus">加入PrivaFit</a></li>
-            <li class="forth"><a href="http://www.privafit.com/partner">合作伙伴</a></li>
-        </ul>
-        <p>www.privafit.com 2014-2019 © All Rights Reserved</p>
-        <p>备案经营许可？</p>
-    </div>
-</div>
-
-        <div style="display:none">
-            <script type="text/javascript">
-            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0a615c950ee719977112f4bc5166ea0c' type='text/javascript'%3E%3C/script%3E"));
-            </script><script src="./index_files/h.js" type="text/javascript"></script>
+            <div class="footer">
+                <ul class="nav">
+                    <li class="first"><a href="">关于PrivaFit</a></li>
+                    <li><a href="">联系PrivaFit</a></li>
+                    <li><a href="">加入PrivaFit</a></li>
+                    <li class="forth"><a href="">合作伙伴</a></li>
+                </ul>
+                <p>www.privafit.com 2014-2019 © All Rights Reserved</p>
+                <p>备案经营许可 Coming Soon</p>
+            </div>
         </div>
-    
-    <script src="./index_files/jquery-1.11.1.min.js"></script>
-    <script src="./index_files/index.js"></script>
-
 </body></html>
