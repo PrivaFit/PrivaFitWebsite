@@ -8,11 +8,13 @@
         <script src="index_files/jquery-1.11.1.min.js"> </script>
         <script src='index_files/index.js'></script>    
         <link rel="stylesheet" href="index_files/index.min.css">
-
+        <link href="http://nonty.net/item/font/setofont.php" rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css' />
         <title>PrivaFit</title>
     </head>
     <body>
-        <div data-role='page' class="header-wrapper" id="home">
+        <div class="header-wrapper" id="home">
             <div class="header">
                 <a href="" title="privafit" class="logo"><img src="./index_files/logo.png" width="164" height="62" alt="PrivaFit"></a>
                 <ul class="nav">
@@ -22,10 +24,13 @@
                     <li><a href="" id='contactLink'>联系我们</a></li>
                 </ul>
             </div>
+            <img src="index_files/group-fitness.jpg" id="headerPhoto"/>
+            <a class='download'><img src="index_files/icon/apple-temp.png" height=50px /></a>
+            <a class="download android"><img src="index_files/icon/android-temp.png" height=50px /></a>
         </div>
-        <div>
-            <div class="main" id="mainContent"> 
-                <h4>在Privafit</h4>
+        <div class="main" id="mainContent">
+            <div class='innerPage' id='homePage'>
+                <h4>在 <span class='privafit'>Privafit</span></h4>
                 <p></br></p>
                 <div class="innerContent">
                     <p>每个人都越来越美丽，越来越自信，越来越健康</p>
@@ -36,17 +41,55 @@
                     <p>We build what you need</p>
                 </div>
             </div>
-        </div>    
-        <div class="footer-wrapper">
-            <div class="footer">
-                <ul class="nav">
-                    <li class="first"><a href="">关于PrivaFit</a></li>
-                    <li><a href="">联系PrivaFit</a></li>
-                    <li><a href="">加入PrivaFit</a></li>
-                    <li class="forth"><a href="">合作伙伴</a></li>
-                </ul>
-                <p>www.privafit.com 2014-2019 © All Rights Reserved</p>
-                <p>备案经营许可 Coming Soon</p>
+            <div class='innerPage green' id="functionPage">
+                <div class="innerContent">
+                    <h3><span class='privafit'>Privafit </span>为你带来最贴心的使用经历</h3>
+                    <div id='functionContainer'>
+                        <img src="index_files/function-1.png" class='function firstLeft'>
+                        <img src="index_files/function-2.png" class='function'>
+                        <img src="index_files/function-3.png" class='function'>
+                        <img src="index_files/function-4.png" class='function'>
+                    </div>
+                    <p>Online+Offline</p>
+                    <p>让健康美丽渗透你的生活</p>
+                    <p>在 <span class='privafit'>Privafit </span>，我们将和你一起追求自由健康的快乐生活。</p>
+                    <p>在 <span class='privafit'>Privafit </span>，你可以发布新鲜事，运动打卡，制定个性化健身计划，找到与你目标相同的伙伴，还可以参与和组织线上及线下活动，包括健康讲座、健身聚会、美容沙龙、社交聚会等。</p>
+                    <p>在 <span class='privafit'>Privafit </span>，我们致力于帮用户找到适合自己的健身方式，找到有共同爱好的朋友，找到生活方式相近的群体。</p>
+                    <p>在 <span class='privafit'>Privafit </span>，每一个你都是最美丽的潜力股。通过你我的共同努力，相信我们会把健康、美丽、自信的信念带到每一个女孩子的生活中，给更多的人带来幸福和快乐</p>
+                </div>
+            </div>
+            <div class='innerPage' id="aboutPage">
+                <div class="innerContent">
+                    <h4>我们的故事，<span class='privafit'>Privafit </span>的故事</h4>
+                    <p><br></p>
+                    <p><span class='privafit'>Privafit </span>是由派微科技有限公司推出的一款专注女性健身和社交的软件。</p>
+                    <p><span class='privafit'>Privafit </span>致力于为广大年轻女性量身定制，以健康、美丽、自信为核心向导的社交分享平台。</p>
+                    <p>项目于2014年由美国硅谷和北京创立。</p>
+                    <p>创始人团队全部为来自美国著名高校和国内顶尖互联网公司的热爱生活的女生。</p>
+                </div>
+            </div>
+            <div class="footer-wrapper innerPage">
+                <div class="footer">
+                    <ul class="nav">
+                        <li><img src="index_files/icon/wechat.png" class='icon'></li>
+                        <li><img src="index_files/icon/weibo.png" class='icon'></li>
+                        <li><img src="index_files/icon/renren.png" class='icon'></li>
+                        <li><img src="index_files/icon/qq.png" class='icon'></li>
+                        <li><img src="index_files/icon/baidu.png" class='icon'></li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="first"><a href="" id='aboutFooter'>关于PrivaFit</a></li>
+                        <li><a href="">联系PrivaFit</a></li>
+                        <li><a href="">加入PrivaFit</a></li>
+                        <li class="forth"><a href="">合作伙伴</a></li>
+                    </ul>
+
+                    <p>www.privafit.com 2014-2019 © All Rights Reserved</p>
+                    <p>备案经营许可 Coming Soon</p>
+                </div>
             </div>
         </div>
-</body></html>
+
+       
+    </body>
+</html>

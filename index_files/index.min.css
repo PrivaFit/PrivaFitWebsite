@@ -1,5 +1,17 @@
+@font-face {
+    font-family: 'glamour girl';
+    src: url('GLAMOURG.TTF');  
+}
+
+@font-face {
+    font-family: 'dongqing';
+    src: url('DQJF.otf');
+}
+
 html {
-    background-image: url('bg.png');
+    background-image: url('gray-pattern.png');
+    font-family: 'Poiret One', "ctb_c_setofont", cursive;
+    /*'Dosis', "ctb_c_setofont", sans-serif*/
 }
 
 .header {
@@ -10,6 +22,7 @@ html {
     margin: 0 auto;
     top: 50px;
     opacity: 1;
+    overflow:hidden;
 }
 
 .header .logo {
@@ -19,9 +32,11 @@ html {
 }
 
 .header-wrapper {
-    background: #ffd600;
+    background: #bcdd11;
+
+    /*background: #ffd600;*/
     width: 100%;
-    opacity: 0.95;
+    height:100%;
 
 }
 
@@ -57,12 +72,20 @@ a {
     opacity: 0.5;
 }
 
-.footer-wrapper {
-    background: #ffd600;
+.innerPage {
     width: 100%;
+    height: 100%;
 }
+
+.footer-wrapper {
+    /*background: #ffd600;*/
+    background: #bcdd11;
+    width: 100%;
+    height: 40%;
+}
+
 .footer {
-    width: 1000px;
+    height:100%;
     margin: 0px auto;
     text-align: center;
 }
@@ -93,17 +116,77 @@ h4 {
 #mainContent {
     text-align: center;
     color:white;
-    width: 60%;
-    padding-left: 20%;
-    height: 350px;
+    width: 100%;
+    height: 100%;
     padding-top: 50px;
 }
 .innerContent {
     line-height:180%;
+    /*padding-left: 20%;*/
+    padding-top: 8%;
+    font-family: 'dongqing';
+    padding-left: 8%;
+    padding-right: 8%;
+
 }
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+html, body{
+    height: 100%;
+}
+
+#headerPhoto {
+    padding: 0px;
+    left: -200px;
+    width:100%;
+    padding-top: 50px;
+}
+
+.download {
+    padding-left: 10%;
+    margin-top: 5%;
+    position:relative;
+    top:30px;
+}
+
+.android {
+    padding-left: 10px;
+}
+
+.green {
+    background-image: url('green-pattern.png');
+    color:#4e4e4e;
+}
+.privafit {
+    font-family: 'glamour girl', "ctb_c_setofont", cursive;
+}
+
+.function {
+    height: 200px;
+    padding-left: 5%;
+}
+#functionContainer:not(.firstLeft) {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+h3 {
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 3%
+
+}
+.icon {
+    height:50px;
+}
+
+#functionContainer {
+    padding-bottom: 5%;
+
 }
